@@ -143,7 +143,7 @@ margin-top: 20px;
 display: flex;
 justify-content: center;
 align-items: center;
-gap: 8px;px;
+gap: 8px;
 background: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8);
 padding: 12px 20px;
 border: none;
@@ -170,8 +170,10 @@ border-radius: 10000px;
 .contain-podcast{
 
 margin-top: 50px;
+padding: 50px;
 text-align: center;
 color: #FFFFFF;
+border: 1px solid yellowgreen;
 
 
 }
@@ -187,6 +189,102 @@ margin-bottom: 15px;
 line-height: 30px;
 /* font-size: 16px; */
 font-weight: lighter;
+
+
+}
+
+/* Stat */
+
+.statistic{
+
+margin-top: 80px;
+display: flex;
+justify-content: space-around;
+padding-bottom: 120px;
+
+}
+.statistic h1{
+color: #00FF88;
+font-size: 48px;
+
+}
+
+.statistic p{
+  line-height: 20px;
+color: #FFFFFF;
+
+}
+
+/* box */
+.Premium-Audio-Quality{
+  grid-area: Premium-Audio-Quality;
+}
+.Mobile-Friendly{
+  grid-area: Mobile-Friendly;
+}
+.Global-Community{
+grid-area: Global-Community;
+
+}
+.Exclusive-Interviews{
+  grid-area: Exclusive-Interviews;
+}
+.Rich-Resources{
+  grid-area: Rich-Resources;
+}
+
+.box-table{
+  color: #FFFFFF;
+  display: grid;
+  background-color: #230E3D;
+  gap:20px;
+  
+  
+grid-template-areas: 
+"Premium-Audio-Quality Mobile-Friendly Mobile-Friendly"
+"Premium-Audio-Quality Mobile-Friendly Mobile-Friendly"
+"Premium-Audio-Quality Global-Community Global-Community"
+"Premium-Audio-Quality Global-Community Global-Community"
+"Exclusive-Interviews Exclusive-Interviews Rich-Resources"
+"Exclusive-Interviews Exclusive-Interviews Rich-Resources"
+
+
+
+}
+.Premium-Audio-Quality, .Mobile-Friendly, .Global-Community, .Exclusive-Interviews, .Rich-Resources{
+  background-color: #351165;
+}
+.box-container{
+color: #FFFFFF;
+/* margin-top: 20px; */
+padding: 150px;
+
+
+
+}
+.box-paragraph{ font-size: 48px; font-weight: bold; text-align: center; padding-bottom: 30px;}
+
+.box-table img,h4,p{
+padding-bottom: 16px;
+
+
+}
+.box-table p{
+line-height: 30px;
+
+
+}
+.box-table h4{
+padding-bottom: 16px;
+font-size: 24px;
+font-weight: bold;
+
+}
+.box-table div{
+
+padding: 40px;
+border-radius: 40px;
+
 
 
 }
