@@ -1,0 +1,192 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+body{
+max-width: 1600px;
+width: 100%;
+background-color: #1A0B2E;
+
+}
+
+.font {
+  
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* navbar */
+.top-container{
+width: 100%;
+padding: 20px;
+color: aliceblue;
+background-color: #1A0B2E;
+opacity: 100%;
+display: flex;
+align-items: center;
+justify-content: space-around;
+
+}
+.wave{
+
+    background: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8);
+  background-clip: text;
+  color: transparent;
+  
+}
+.Middle{
+list-style-type: none;
+display: flex;
+gap:20px;
+font-size: 16px;
+font-weight: 500;
+
+}
+.button-arrow{
+
+    background: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8);
+display: inline-flex;
+align-items: center;
+padding: 5px 15px;
+border: none;
+border-radius:10px;
+}
+
+.hero-bg{
+  
+  height: 750px;
+background-image: url("../B13-A02-TechWave/assets/hero-bg.png");
+background-size: contain;
+text-align: center;
+padding-top: 80px;border: 1px solid red;
+
+
+
+
+}
+.hero-pic{
+border: 1px solid greenyellow;
+
+
+
+}
+
+.extra-div{
+position: relative;
+
+
+}
+
+.circle-Top{
+  width: 75px;
+  height: 38px;
+  color: #1A0B2E;
+  background-color: #00FF88;
+  padding: 10px;
+  border-radius: 10000px;
+  position: absolute;
+  top:20px;
+  left: 800px;
+  /* margin: 0 auto; */
+
+  
+
+}
+.hero-microphone{
+
+position: absolute;
+top: 84px;
+left: 655px;
+
+
+
+
+}
+.hero-description{
+margin-top: 40px;
+
+}
+
+.hero-head{
+font-size: 60px;
+font-weight: bolder;
+color: #FFFFFF;
+padding-bottom: 8px;
+
+}
+
+.hero-paragraph{
+
+font-size: 16px;
+font-weight: lighter;
+color:#FFFFFF;
+
+
+
+}
+
+.botton{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 8px;
+margin-top: 20px;
+
+}
+
+
+
+
+.spotify{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 8px;px;
+background: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8);
+padding: 12px 20px;
+border: none;
+border-radius: 10000px;
+
+}
+
+.Email{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 8px;
+color:#00FF88;
+padding: 12px 20px;
+background-color: transparent;
+border: 1px solid #00FF88;
+border-radius: 10000px;
+
+
+}
+
+/* podcast */
+
+.contain-podcast{
+
+margin-top: 50px;
+text-align: center;
+color: #FFFFFF;
+
+
+}
+
+.podcast-head{
+font-size: 48px;
+font-weight: bold;
+margin-bottom: 15px;
+
+}
+.podcast-paragraph{
+
+line-height: 30px;
+/* font-size: 16px; */
+font-weight: lighter;
+
+
+}
