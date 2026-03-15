@@ -5,8 +5,8 @@ box-sizing: border-box;
 
 }
 body{
-max-width: 1600px;
-width: 100%;
+/* max-width: 1600px;
+width: 100%; */
 background-color: #1A0B2E;
 
 }
@@ -29,6 +29,14 @@ align-items: center;
 justify-content: space-around;
 
 }
+.Techwave{
+
+  font-weight: bolder;
+  font-size: 25px;
+
+  
+}
+
 .wave{
 
     background: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8);
@@ -60,7 +68,8 @@ border-radius:10px;
 background-image: url("../B13-A02-TechWave/assets/hero-bg.png");
 background-size: contain;
 text-align: center;
-padding-top: 80px;border: 1px solid red;
+padding-top: 80px;
+border: 1px solid red;
 
 
 
@@ -89,7 +98,7 @@ position: relative;
   position: absolute;
   top:20px;
   left: 800px;
-  /* margin: 0 auto; */
+  
 
   
 
@@ -190,7 +199,7 @@ margin-bottom: 15px;
 .podcast-paragraph{
 
 line-height: 30px;
-/* font-size: 16px; */
+
 font-weight: lighter;
 
 
@@ -264,8 +273,7 @@ grid-template-areas:
 .box-container{
 color: #FFFFFF;
 border: 1px solid red;
-/* margin-top: 20px; */
-/* padding: 150px; */
+
 width: 80%;
 margin: 0 auto;
 
@@ -304,38 +312,44 @@ border-radius: 40px;
 /* Feature */
 
 .contain-feature{
-
+margin-top: 120px;
 border: 1px solid rebeccapurple;
 
-
-
 }
+.feature-head{
+color: #FFFFFF;
+padding-top: 120px;
+text-align: center;
+}
+
 .clock{
 display: flex;
-justify-content: center;
+/* justify-content: center; */
 align-items: center;
 gap: 5px;
-
+padding: 0px 24px 24px 24px ;
 
 }
+
 .contain-feature iframe{
   width: 100%;
   height: 224px;
 }
-.contain-feature h4{
-  padding: 20px;
+.Card-Head{
+  padding: 20px 20px 0px 20px ;
   font-size: 24px;
   font-weight: bold;
 }
 .contain-feature p{
-  padding: 14px;
+  padding: 0px 24px 24px 24px;
   line-height: 24px;
+  opacity: .6;
 }
 
 .card{
 color: #FFFFFF;
 border: 1px solid red;
-text-align: center;
+/* text-align: center; */
 border-radius: 24px;
 
 
@@ -345,10 +359,9 @@ border-radius: 24px;
 display: flex;
 justify-content: space-between;
 align-items: center;
-
 width: 80%;
-
 margin: 0 auto;
+margin-top: 40px;
 
 
 
@@ -414,39 +427,41 @@ gap: 20px;
 }
 
 /* Footer  */
-
-/* .Techwave{
-
-  background: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8);
-  background-clip: text;
-  color: transparent;
-
-  
-} */
- .foot-contain
- {
- width: 80%;
-
-margin: 120px auto;
-text-align: center;
-background-image: url("../B13-A02-TechWave/assets/footer-bg.png");
-height: 420px;
-
- }
-.Techwave{
-  color: #FFFFFF;
-  
-
+footer{
+  background-image: url("../B13-A02-TechWave/assets/footer-bg.png");
+  background-size: contain;
+  border: 1px solid red;
+  width: 100%;
+  height: 420px;
 
 }
 
+
+.Techwave2{
+
+  color: #FFFFFF;
+  font-size: 40px;
+}
+
+ .foot-contain
+ {
+ 
+
+margin-top: 120px;
+text-align: center;
+
+height: 420px;
+
+ }
+
+
 .footer-icon{
-  /* color: #FFFFFF; */
+  
   display: flex;
   justify-content: center;
   align-items: center;
   border: 1px solid red;
-  gap: 5px  ;
+  gap: 8px  ;
   
   
 } 
@@ -455,12 +470,16 @@ height: 420px;
    justify-content: center; 
   align-items: center;
   color: #FFFFFF;
-  gap: 8px  ;
-  margin-top: 32px;
+  gap: 30px  ;
+  margin-top: 25px;
   margin-bottom: 32px;
+  
  
 border: 1px solid green;
 
+}
+.Footer-icon-part span{
+  opacity: .6;
 }
 .footer-icon img{
 border: 1px solid green;
@@ -474,6 +493,8 @@ color: #FFFFFF;
 .copy{
 color: #FFFFFF;
 line-height: 24px;
+margin-top: 32px;
+opacity: .6;
 
 }
 
